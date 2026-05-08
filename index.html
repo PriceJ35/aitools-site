@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best AI Tools 2026 - Reviews, Comparisons & Guides</title>
+    <meta name="description" content="Comprehensive AI tool reviews, comparisons, and guides. Find the best AI tools for writing, image generation, coding, video, and more in 2026.">
+    <meta name="keywords" content="AI tools review, best AI tools 2026, AI tool comparison, ChatGPT alternatives, AI writing tools, AI image generators">
+    <link rel="canonical" href="https://yourusername.github.io/aitools-site/">
+    <meta property="og:title" content="Best AI Tools 2026 - Reviews, Comparisons & Guides">
+    <meta property="og:description" content="Find the best AI tools for every task. Expert reviews and side-by-side comparisons.">
+    <meta property="og:type" content="website">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ad placeholder - replace with AdSense/Ezoic code -->
+    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXX" crossorigin="anonymous"></script> -->
+
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "AI Tool Scout",
+        "url": "https://yourusername.github.io/aitools-site/",
+        "description": "Comprehensive AI tool reviews and comparisons"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">AI Tool Scout</span>
+            </a>
+            <button class="mobile-toggle" onclick="toggleNav()">☰</button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#top-picks">Top Picks</a></li>
+                <li><a href="#comparisons">Comparisons</a></li>
+                <li><a href="#guides">Guides</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1>Find the <span class="gradient-text">Best AI Tools</span> in 2026</h1>
+            <p class="hero-sub">Expert reviews, honest comparisons, and practical guides to help you choose the right AI tools for your workflow.</p>
+            <div class="hero-search">
+                <input type="text" id="searchInput" placeholder="Search AI tools... (e.g., AI writing, image generator)" onkeyup="filterTools()">
+                <button class="btn-primary" onclick="filterTools()">Search</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><strong>200+</strong><span>Tools Reviewed</span></div>
+                <div class="stat"><strong>50+</strong><span>Comparisons</span></div>
+                <div class="stat"><strong>Updated</strong><span>Weekly</span></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Ad Banner -->
+    <div class="ad-container">
+        <div class="container">
+            <div class="ad-slot">Ad Space - 728x90 Leaderboard</div>
+        </div>
+    </div>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section">
+        <div class="container">
+            <h2 class="section-title">Browse by Category</h2>
+            <div class="category-grid">
+                <a href="#tools" class="category-card" data-category="writing">
+                    <div class="cat-icon">✍️</div>
+                    <h3>AI Writing</h3>
+                    <p>ChatGPT, Claude, Jasper, Copy.ai & more</p>
+                    <span class="cat-count">35+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="image">
+                    <div class="cat-icon">🎨</div>
+                    <h3>AI Image Generation</h3>
+                    <p>Midjourney, DALL-E, Stable Diffusion & more</p>
+                    <span class="cat-count">28+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="video">
+                    <div class="cat-icon">🎬</div>
+                    <h3>AI Video</h3>
+                    <p>Runway, Pika, Sora, HeyGen & more</p>
+                    <span class="cat-count">22+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="coding">
+                    <div class="cat-icon">💻</div>
+                    <h3>AI Coding</h3>
+                    <p>GitHub Copilot, Cursor, Replit & more</p>
+                    <span class="cat-count">18+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="voice">
+                    <div class="cat-icon">🎙️</div>
+                    <h3>AI Voice & Music</h3>
+                    <p>ElevenLabs, Suno, Udio & more</p>
+                    <span class="cat-count">15+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="productivity">
+                    <div class="cat-icon">🚀</div>
+                    <h3>AI Productivity</h3>
+                    <p>Notion AI, Otter.ai, Grammarly & more</p>
+                    <span class="cat-count">30+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="seo">
+                    <div class="cat-icon">📊</div>
+                    <h3>AI SEO & Marketing</h3>
+                    <p>SurferSEO, Jasper, Writesonic & more</p>
+                    <span class="cat-count">20+ tools</span>
+                </a>
+                <a href="#tools" class="category-card" data-category="design">
+                    <div class="cat-icon">🖼️</div>
+                    <h3>AI Design</h3>
+                    <p>Canva AI, Figma AI, Framer & more</p>
+                    <span class="cat-count">16+ tools</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Picks Section -->
+    <section id="top-picks" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Top Picks - May 2026</h2>
+            <div class="tools-grid" id="toolsGrid">
+
+                <article class="tool-card" data-categories="writing productivity">
+                    <div class="tool-header">
+                        <span class="tool-badge">Best Overall</span>
+                        <div class="tool-rating">★★★★★ <span>4.8</span></div>
+                    </div>
+                    <h3 class="tool-name">Claude (Anthropic)</h3>
+                    <p class="tool-desc">Advanced AI assistant excelling in writing, analysis, coding, and research. Best-in-class reasoning with a massive 200K context window.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Free tier</span>
+                        <span class="tag">API</span>
+                        <span class="price">From $20/mo</span>
+                    </div>
+                    <a href="reviews/claude-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+                <article class="tool-card" data-categories="image">
+                    <div class="tool-header">
+                        <span class="tool-badge best-value">Best Value</span>
+                        <div class="tool-rating">★★★★★ <span>4.7</span></div>
+                    </div>
+                    <h3 class="tool-name">Midjourney v7</h3>
+                    <p class="tool-desc">Industry-leading AI image generation with stunning photorealistic outputs. V7 brings real-time editing and consistent character generation.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Discord</span>
+                        <span class="tag">Web App</span>
+                        <span class="price">From $10/mo</span>
+                    </div>
+                    <a href="reviews/midjourney-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+                <article class="tool-card" data-categories="coding">
+                    <div class="tool-header">
+                        <span class="tool-badge best-dev">Best for Devs</span>
+                        <div class="tool-rating">★★★★★ <span>4.9</span></div>
+                    </div>
+                    <h3 class="tool-name">Cursor</h3>
+                    <p class="tool-desc">AI-first code editor that understands your entire codebase. Tab completion, multi-file editing, and natural language coding built in.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Free tier</span>
+                        <span class="tag">VS Code</span>
+                        <span class="price">From $20/mo</span>
+                    </div>
+                    <a href="reviews/cursor-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+                <article class="tool-card" data-categories="video">
+                    <div class="tool-header">
+                        <span class="tool-badge trending">Trending</span>
+                        <div class="tool-rating">★★★★☆ <span>4.5</span></div>
+                    </div>
+                    <h3 class="tool-name">Runway Gen-4</h3>
+                    <p class="tool-desc">Professional AI video generation and editing. Gen-4 delivers cinematic quality with precise motion control and character consistency.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Free trial</span>
+                        <span class="tag">API</span>
+                        <span class="price">From $12/mo</span>
+                    </div>
+                    <a href="reviews/runway-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+                <article class="tool-card" data-categories="voice music">
+                    <div class="tool-header">
+                        <span class="tool-badge">Editor's Choice</span>
+                        <div class="tool-rating">★★★★★ <span>4.8</span></div>
+                    </div>
+                    <h3 class="tool-name">ElevenLabs</h3>
+                    <p class="tool-desc">The gold standard in AI voice synthesis. Clone voices, generate narration, and create multilingual audio with natural emotion.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Free tier</span>
+                        <span class="tag">API</span>
+                        <span class="price">From $5/mo</span>
+                    </div>
+                    <a href="reviews/elevenlabs-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+                <article class="tool-card" data-categories="seo writing marketing">
+                    <div class="tool-header">
+                        <span class="tool-badge best-value">Best for SEO</span>
+                        <div class="tool-rating">★★★★☆ <span>4.6</span></div>
+                    </div>
+                    <h3 class="tool-name">Surfer AI</h3>
+                    <p class="tool-desc">AI-powered content optimization platform. Generate SEO-ready articles that rank, with real-time scoring and competitor analysis.</p>
+                    <div class="tool-meta">
+                        <span class="tag">Free trial</span>
+                        <span class="tag">WordPress</span>
+                        <span class="price">From $89/mo</span>
+                    </div>
+                    <a href="reviews/surfer-review.html" class="btn-outline">Read Review →</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparisons Section -->
+    <section id="comparisons" class="section">
+        <div class="container">
+            <h2 class="section-title">Popular Comparisons</h2>
+            <div class="comparison-grid">
+                <a href="reviews/claude-vs-chatgpt.html" class="comparison-card">
+                    <div class="vs-badge">VS</div>
+                    <div class="comp-tools">
+                        <span>Claude</span>
+                        <span>ChatGPT</span>
+                    </div>
+                    <p>Which AI assistant is better in 2026?</p>
+                </a>
+                <a href="reviews/midjourney-vs-dalle.html" class="comparison-card">
+                    <div class="vs-badge">VS</div>
+                    <div class="comp-tools">
+                        <span>Midjourney</span>
+                        <span>DALL-E 4</span>
+                    </div>
+                    <p>AI image generation showdown</p>
+                </a>
+                <a href="reviews/cursor-vs-copilot.html" class="comparison-card">
+                    <div class="vs-badge">VS</div>
+                    <div class="comp-tools">
+                        <span>Cursor</span>
+                        <span>Copilot</span>
+                    </div>
+                    <p>Best AI coding assistant compared</p>
+                </a>
+                <a href="reviews/notion-vs-obsidian.html" class="comparison-card">
+                    <div class="vs-badge">VS</div>
+                    <div class="comp-tools">
+                        <span>Notion AI</span>
+                        <span>Obsidian</span>
+                    </div>
+                    <p>AI-powered note-taking apps</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guides Section -->
+    <section id="guides" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Latest Guides</h2>
+            <div class="guides-grid">
+                <article class="guide-card">
+                    <span class="guide-tag">Guide</span>
+                    <h3><a href="reviews/ai-writing-guide.html">How to Use AI Writing Tools to 10x Your Content Output</a></h3>
+                    <p>Step-by-step guide to leveraging AI for blog posts, social media, and email marketing without sacrificing quality.</p>
+                    <span class="guide-date">May 5, 2026</span>
+                </article>
+                <article class="guide-card">
+                    <span class="guide-tag">Tutorial</span>
+                    <h3><a href="reviews/prompt-engineering.html">Prompt Engineering Masterclass: From Beginner to Pro</a></h3>
+                    <p>Learn the techniques experts use to get dramatically better results from any AI model.</p>
+                    <span class="guide-date">May 2, 2026</span>
+                </article>
+                <article class="guide-card">
+                    <span class="guide-tag">Guide</span>
+                    <h3><a href="reviews/free-ai-tools.html">50 Best Free AI Tools in 2026 (No Credit Card Required)</a></h3>
+                    <p>Our curated list of genuinely free AI tools across every category — writing, images, coding, and more.</p>
+                    <span class="guide-date">Apr 28, 2026</span>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ad Banner -->
+    <div class="ad-container">
+        <div class="container">
+            <div class="ad-slot">Ad Space - 728x90 Leaderboard</div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>⚡ AI Tool Scout</h4>
+                    <p>Helping you find the best AI tools with honest reviews and expert comparisons since 2025.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">AI Writing</a></li>
+                        <li><a href="#">AI Image</a></li>
+                        <li><a href="#">AI Video</a></li>
+                        <li><a href="#">AI Coding</a></li>
+                        <li><a href="#">AI Voice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Comparisons</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Free Tools</a></li>
+                        <li><a href="#">API Directory</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AI Tool Scout. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

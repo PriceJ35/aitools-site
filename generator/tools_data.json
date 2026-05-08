@@ -1,0 +1,269 @@
+[
+  {
+    "slug": "chatgpt-review",
+    "name": "ChatGPT (OpenAI)",
+    "rating": "4.6",
+    "stars": "★★★★½",
+    "badge": "Most Popular",
+    "badge_class": "trending",
+    "updated": "May 3, 2026",
+    "read_time": "11 min",
+    "summary": "ChatGPT by OpenAI remains the most widely-used AI chatbot in 2026. With GPT-4o, DALL-E 4 integration, web browsing, and a massive plugin ecosystem, it's the most versatile AI assistant for everyday users.",
+    "category": "AI Writing & Chatbot",
+    "price_range": "Free - $20/mo",
+    "what_is": "ChatGPT is OpenAI's flagship AI assistant, powered by the GPT-4o model. It combines text generation, image creation (via DALL-E 4), web browsing, code execution, and file analysis in a single interface. With over 500 million weekly users, it's the most popular AI tool globally.",
+    "features": [
+      "GPT-4o Model — Fast, multimodal model with text, image, audio, and video understanding",
+      "DALL-E 4 Integration — Generate and edit images directly in chat",
+      "Web Browsing — Real-time web search and information retrieval",
+      "Code Interpreter — Run Python code, analyze data, create charts",
+      "Custom GPTs — Create and share custom AI assistants",
+      "File Upload — Analyze PDFs, spreadsheets, images, and more"
+    ],
+    "test_results": [
+      [
+        "General Knowledge",
+        "9.0/10",
+        "Broad and accurate across most topics"
+      ],
+      [
+        "Creative Writing",
+        "8.8/10",
+        "Good versatility, sometimes generic output"
+      ],
+      [
+        "Code Generation",
+        "8.5/10",
+        "Solid but can struggle with complex architectures"
+      ],
+      [
+        "Math & Logic",
+        "8.5/10",
+        "Improved with o3 reasoning integration"
+      ],
+      [
+        "Image Generation",
+        "8.7/10",
+        "DALL-E 4 produces good results, great editing"
+      ]
+    ],
+    "pros": [
+      "Most versatile all-in-one AI assistant",
+      "Excellent image generation built-in",
+      "Massive plugin and GPT ecosystem",
+      "Strong mobile and desktop apps",
+      "Voice conversation mode",
+      "Free tier is genuinely useful"
+    ],
+    "cons": [
+      "Can be verbose and generic in responses",
+      "Context window smaller than Claude (128K vs 200K)",
+      "Rate limits on free tier",
+      "Occasional hallucinations in factual responses",
+      "Privacy concerns with training data usage"
+    ],
+    "pricing": [
+      [
+        "Free",
+        "$0/mo",
+        "Limited GPT-4o access, standard features"
+      ],
+      [
+        "Plus",
+        "$20/mo",
+        "Full GPT-4o, DALL-E, browsing, Code Interpreter"
+      ],
+      [
+        "Team",
+        "$25/user/mo",
+        "Plus features + admin tools, shared workspace"
+      ],
+      [
+        "Pro",
+        "$200/mo",
+        "Unlimited access, o3 reasoning model, advanced features"
+      ]
+    ],
+    "comparison": {
+      "title": "ChatGPT vs Claude",
+      "rows": [
+        [
+          "Context Window",
+          "128K tokens",
+          "200K tokens"
+        ],
+        [
+          "Image Generation",
+          "✅ DALL-E 4",
+          "❌"
+        ],
+        [
+          "Reasoning Quality",
+          "⭐⭐⭐⭐",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "Writing Quality",
+          "⭐⭐⭐⭐",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "Code Quality",
+          "⭐⭐⭐⭐",
+          "⭐⭐⭐⭐½"
+        ],
+        [
+          "Plugin Ecosystem",
+          "✅ Massive",
+          "❌ Limited"
+        ],
+        [
+          "Web Browsing",
+          "✅",
+          "✅ (Pro)"
+        ],
+        [
+          "Price (Pro)",
+          "$20/mo",
+          "$20/mo"
+        ]
+      ]
+    },
+    "verdict": "ChatGPT remains the best AI assistant for most people thanks to its versatility, image generation, and massive ecosystem. If you need an all-in-one tool with the most features, ChatGPT is the way to go. For pure text quality and reasoning, Claude edges ahead.",
+    "cta_url": "https://chat.openai.com",
+    "cta_text": "Try ChatGPT Free"
+  },
+  {
+    "slug": "midjourney-review",
+    "name": "Midjourney v7",
+    "rating": "4.7",
+    "stars": "★★★★★",
+    "badge": "Best Value",
+    "badge_class": "best-value",
+    "updated": "May 1, 2026",
+    "read_time": "10 min",
+    "summary": "Midjourney v7 is the undisputed king of AI image generation. With stunning photorealistic quality, consistent character generation, and real-time editing, it's the top choice for designers, marketers, and creators.",
+    "category": "AI Image Generation",
+    "price_range": "$10 - $120/mo",
+    "what_is": "Midjourney is an AI image generation tool that creates stunning visuals from text descriptions. Version 7 introduces real-time editing, character consistency across multiple images, and significantly improved photorealism. It runs through Discord and its web interface.",
+    "features": [
+      "Photorealistic Generation — Industry-leading image quality with accurate lighting, textures, and details",
+      "Character Consistency — Generate the same character across multiple scenes and poses",
+      "Real-time Editing — Modify images interactively with instant visual feedback",
+      "Style Tuning — Fine-tune the aesthetic style to match your brand or preference",
+      "Pan & Zoom — Extend images beyond their original boundaries seamlessly",
+      "Variation Modes — Choose between subtle and strong variations for precise control"
+    ],
+    "test_results": [
+      [
+        "Photorealism",
+        "9.7/10",
+        "Best-in-class, nearly indistinguishable from photos"
+      ],
+      [
+        "Artistic Styles",
+        "9.5/10",
+        "Exceptional range from oil paintings to anime"
+      ],
+      [
+        "Text on Images",
+        "7.5/10",
+        "Improved but still struggles with longer text"
+      ],
+      [
+        "Prompt Following",
+        "9.0/10",
+        "Great adherence to complex multi-element prompts"
+      ],
+      [
+        "Speed",
+        "8.0/10",
+        "~60 seconds for high quality; turbo mode available"
+      ]
+    ],
+    "pros": [
+      "Best image quality available",
+      "Excellent character consistency",
+      "Strong community and shared prompts",
+      "Web interface now available (not just Discord)",
+      "Commercial usage rights included"
+    ],
+    "cons": [
+      "No free tier available",
+      "Still primarily Discord-based",
+      "Learning curve for optimal prompting",
+      "Can't edit specific parts precisely",
+      "Generation speed could be faster"
+    ],
+    "pricing": [
+      [
+        "Basic",
+        "$10/mo",
+        "~200 fast generations, 3 concurrent jobs"
+      ],
+      [
+        "Standard",
+        "$30/mo",
+        "15h fast generations, unlimited relaxed"
+      ],
+      [
+        "Pro",
+        "$60/mo",
+        "30h fast, stealth mode, 12 concurrent jobs"
+      ],
+      [
+        "Mega",
+        "$120/mo",
+        "60h fast, everything in Pro, max capacity"
+      ]
+    ],
+    "comparison": {
+      "title": "Midjourney vs DALL-E 4",
+      "rows": [
+        [
+          "Image Quality",
+          "⭐⭐⭐⭐⭐",
+          "⭐⭐⭐⭐"
+        ],
+        [
+          "Ease of Use",
+          "⭐⭐⭐",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "Text on Images",
+          "⭐⭐⭐",
+          "⭐⭐⭐⭐"
+        ],
+        [
+          "Editing Tools",
+          "⭐⭐⭐⭐",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "Speed",
+          "⭐⭐⭐⭐",
+          "⭐⭐⭐⭐⭐"
+        ],
+        [
+          "Pricing",
+          "From $10/mo",
+          "Included in $20/mo ChatGPT"
+        ],
+        [
+          "Free Tier",
+          "❌",
+          "✅ (limited)"
+        ],
+        [
+          "API",
+          "❌",
+          "✅"
+        ]
+      ]
+    },
+    "verdict": "Midjourney v7 produces the most beautiful AI-generated images available. If image quality is your top priority, there's no competition. For casual users who want simplicity and editing tools, DALL-E 4 is a solid alternative.",
+    "cta_url": "https://midjourney.com",
+    "cta_text": "Try Midjourney"
+  }
+]
