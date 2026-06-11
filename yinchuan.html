@@ -2,240 +2,366 @@
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>银川游玩攻略 · 2026年7月</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>银川玩什么吃什么 · 7月来做客必备</title>
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:#333;background:#f7f7f7;line-height:1.8}
-.wrap{max-width:720px;margin:0 auto;padding:20px 16px 60px}
-h1{font-size:28px;text-align:center;padding:40px 0 8px;font-weight:800}
-.sub{text-align:center;color:#888;font-size:14px;margin-bottom:36px}
-h2{font-size:20px;margin:36px 0 16px;padding-left:12px;border-left:4px solid #e8590c;font-weight:700}
-h3{font-size:16px;margin:20px 0 8px;color:#444}
-.card{background:#fff;border-radius:12px;padding:20px;margin-bottom:16px;box-shadow:0 1px 4px rgba(0,0,0,.06)}
-.card h3{margin-top:0}
-.tag{display:inline-block;background:#fff3e0;color:#e8590c;font-size:12px;padding:2px 10px;border-radius:20px;font-weight:600;margin-right:6px}
-.tag.blue{background:#e3f2fd;color:#1565c0}
-.tag.green{background:#e8f5e9;color:#2e7d32}
-.tag.purple{background:#f3e5f5;color:#7b1fa2}
-ul{padding-left:20px;margin:8px 0}
-li{margin:4px 0;font-size:14px}
-p{font-size:14px;margin:6px 0}
-.price{color:#e8590c;font-weight:700}
-.note{background:#fff8e1;border-radius:8px;padding:14px 16px;margin:12px 0;font-size:13px;color:#8d6e00}
-.note::before{content:"💡 "}
-.footer{text-align:center;padding:32px 0 0;color:#bbb;font-size:12px}
-.day{font-weight:700;color:#e8590c;margin:12px 0 6px;font-size:15px}
-table{width:100%;border-collapse:collapse;font-size:13px;margin:8px 0}
-th{background:#f5f5f5;padding:8px 10px;text-align:left;font-weight:600;border-bottom:2px solid #e0e0e0}
-td{padding:8px 10px;border-bottom:1px solid #f0f0f0}
-.timeline{border-left:3px solid #e8590c;padding-left:20px;margin:12px 0 12px 8px}
-.timeline .t-item{position:relative;margin-bottom:16px}
-.timeline .t-item::before{content:"";position:absolute;left:-25px;top:6px;width:10px;height:10px;border-radius:50%;background:#e8590c}
-.timeline .t-item .t-time{font-size:12px;color:#999}
-.timeline .t-item .t-text{font-size:14px}
-.divider{height:1px;background:#e0e0e0;margin:32px 0}
-.hero-banner{text-align:center;background:linear-gradient(135deg,#ff9a56,#e8590c);color:#fff;border-radius:16px;padding:36px 24px;margin-bottom:24px}
-.hero-banner h1{color:#fff;padding:0;border:none;font-size:32px}
-.hero-banner p{font-size:15px;opacity:.9;margin-top:8px}
-.hero-banner .date{font-size:18px;font-weight:700;margin-top:12px}
-@media(max-width:480px){.wrap{padding:12px 10px 40px}h1{font-size:24px}.hero-banner h1{font-size:26px}.hero-banner{padding:28px 16px}}
+:root{--o:#e8590c;--bg:#fafafa}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;color:#333;background:var(--bg);line-height:1.8;font-size:15px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:640px;margin:0 auto;padding:0 0 80px}
+
+/* Elevator */
+.elevator{position:fixed;top:0;left:0;right:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid #eee;transition:transform .3s,box-shadow .3s}
+.elevator.hide{transform:translateY(-100%)}
+.elevator.show{box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.elevator-inner{max-width:640px;margin:0 auto;display:flex;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;padding:10px 12px;gap:6px}
+.elevator-inner::-webkit-scrollbar{display:none}
+.elevator a{flex-shrink:0;display:flex;align-items:center;gap:4px;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;color:#555;background:#f5f5f5;text-decoration:none;transition:all .2s;white-space:nowrap}
+.elevator a:active,.elevator a.active{background:var(--o);color:#fff}
+.elevator a .ei{font-size:14px}
+body{padding-top:52px}
+
+/* Header */
+header{text-align:center;padding:44px 20px 36px;background:linear-gradient(135deg,#ff9a56,#e8590c);color:#fff}
+header h1{font-size:24px;font-weight:800}
+header p{font-size:14px;opacity:.85;margin-top:4px}
+
+/* Sections */
+.block{padding:0 16px}
+.block-title{font-size:17px;font-weight:700;margin:28px 0 12px;position:relative;padding-left:14px}
+.block-title::before{content:"";position:absolute;left:0;top:4px;width:4px;height:18px;background:var(--o);border-radius:2px}
+.intro{font-size:14px;color:#666;margin-bottom:16px;line-height:1.7}
+
+/* Card */
+.c{background:#fff;border-radius:14px;padding:16px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+
+/* Transport */
+.go-card{display:flex;gap:12px;padding:14px;background:#fff;border-radius:14px;margin-bottom:10px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.go-icon{font-size:28px;flex-shrink:0}
+.go-body{flex:1;font-size:13px;color:#555;line-height:1.7}
+.go-body strong{color:#333;font-size:14px}
+.go-body .hl{color:var(--o);font-weight:700}
+
+/* Weather chips */
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{background:#fff;border-radius:20px;padding:6px 14px;font-size:13px;box-shadow:0 1px 3px rgba(0,0,0,.04)}
+.chip b{color:var(--o)}
+
+/* Day */
+.day-label{display:inline-flex;align-items:center;gap:6px;background:var(--o);color:#fff;font-size:13px;font-weight:700;padding:4px 12px;border-radius:20px;margin:16px 0 8px}
+.spot{padding:10px 0 10px 16px;border-left:3px solid #ffdbb8;margin-left:6px}
+.spot b{font-size:14px}
+.spot p{font-size:13px;color:#666;margin:2px 0}
+.spot .meta{font-size:12px;color:#aaa}
+
+/* Food */
+.food{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid #f3f3f3}
+.food:last-child{border:none}
+.food-emoji{font-size:28px;flex-shrink:0}
+.food-info{flex:1}
+.food-info .fname{font-size:14px;font-weight:600}
+.food-info .fdesc{font-size:12px;color:#888;margin-top:2px}
+.food-info .fprice{font-size:13px;color:var(--o);font-weight:700;margin-top:2px}
+
+/* Stay */
+.stay{padding:10px 0;border-bottom:1px solid #f3f3f3;display:flex;justify-content:space-between;align-items:center}
+.stay:last-child{border:none}
+.stay .sname{font-size:14px;font-weight:600}
+.stay .sdesc{font-size:12px;color:#888;margin-top:1px}
+.stay .sprice{font-size:13px;color:var(--o);font-weight:700;white-space:nowrap;margin-left:12px}
+
+/* Tip */
+.tip{background:#fff8e1;border-radius:12px;padding:12px 14px;font-size:13px;color:#8d6e00;margin:10px 0;line-height:1.7}
+
+/* Notice list */
+.notice{list-style:none;padding:0}
+.notice li{font-size:13px;padding:8px 0;border-bottom:1px solid #f5f5f5;line-height:1.7}
+.notice li:last-child{border:none}
+.notice li b{color:#333}
+
+/* Footer */
+footer{text-align:center;padding:32px 16px;color:#ccc;font-size:12px}
+
+/* Spacer */
+.gap{height:8px;background:var(--bg);margin:20px 0}
+
+@media(min-width:480px){.wrap{padding:0 16px 80px}header{padding:52px 24px 40px;border-radius:0 0 24px 24px}}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-<div class="hero-banner">
-  <h1>银川游玩攻略</h1>
-  <p>专为远道而来的朋友们准备</p>
-  <div class="date">2026 · 7月</div>
+<nav class="elevator" id="elevator">
+  <div class="elevator-inner">
+    <a href="#go-arrive"><span class="ei">✈️</span>怎么来</a>
+    <a href="#go-weather"><span class="ei">☀️</span>天气</a>
+    <a href="#go-plan1"><span class="ei">1️⃣</span>1-2天</a>
+    <a href="#go-plan2"><span class="ei">2️⃣</span>3天</a>
+    <a href="#go-plan3"><span class="ei">3️⃣</span>3-5天</a>
+    <a href="#go-transport"><span class="ei">🚕</span>交通</a>
+    <a href="#go-tips"><span class="ei">📌</span>注意</a>
+  </div>
+</nav>
+
+<header>
+  <h1>来银川，这么玩 🐪</h1>
+  <p>给你们准备了一份吃喝玩乐攻略</p>
+</header>
+
+<!-- 怎么来 -->
+<div class="block" id="go-arrive">
+<div class="block-title">怎么到银川</div>
+<div class="go-card">
+  <div class="go-icon">✈️</div>
+  <div class="go-body">
+    <strong>飞机（推荐）</strong><br>
+    广州/深圳直飞河东机场，<span class="hl">3-3.5小时</span><br>
+    7月票价约 ¥1,000-1,800，提前订更便宜<br>
+    到了打车到金凤区约 40 分钟，¥80-100
+  </div>
+</div>
+<div class="go-card">
+  <div class="go-icon">🚄</div>
+  <div class="go-body">
+    <strong>高铁</strong><br>
+    广州南 → 银川，<span class="hl">约12小时</span>，二等座 ¥800-900<br>
+    适合想沿途看风景的朋友
+  </div>
+</div>
 </div>
 
-<!-- 交通 -->
-<h2>怎么到银川</h2>
-<div class="card">
-  <h3>✈️ 飞机（推荐）</h3>
-  <p>广州/深圳直飞银川河东机场，航程约 <span class="price">3-3.5小时</span></p>
-  <p>7月参考票价：¥1,000-1,800（提前订更便宜）</p>
-  <p>到达后打车到金凤区约 40 分钟，¥80-100</p>
+<!-- 天气 -->
+<div class="block" id="go-weather">
+<div class="block-title">7月的银川长这样</div>
+<p class="intro">干热不闷，白天晒但早晚凉快，跟广东完全是两种热法。紫外线很强，不防晒一天就黑。</p>
+<div class="chips">
+  <div class="chip">🌡 <b>28-35°C</b> 白天</div>
+  <div class="chip">🌙 <b>18-22°C</b> 早晚</div>
+  <div class="chip">👕 短袖<b>+薄外套</b></div>
+  <div class="chip">🧴 <b>SPF50+</b> 防晒</div>
+  <div class="chip">🕶 墨镜帽子</div>
+  <div class="chip">💄 <b>润唇膏</b> 必带</div>
 </div>
-<div class="card">
-  <h3>🚄 高铁</h3>
-  <p>广州南 → 银川，约 <span class="price">12小时</span>，二等座约 ¥800-900</p>
-  <p>适合想沿途看风景或不想飞的朋友</p>
-</div>
-
-<!-- 7月天气 -->
-<h2>7月天气 & 穿搭</h2>
-<div class="card">
-  <table>
-    <tr><th>项目</th><th>说明</th></tr>
-    <tr><td>气温</td><td>白天 28-35°C，早晚凉快 18-22°C</td></tr>
-    <tr><td>体感</td><td>干热，不像广东闷热，但紫外线极强</td></tr>
-    <tr><td>穿衣</td><td>短袖+薄外套（室内/车内空调猛），女生带薄披肩</td></tr>
-    <tr><td>必带</td><td>防晒霜 SPF50+、墨镜、遮阳帽、润唇膏（非常干）</td></tr>
-    <tr><td>鞋子</td><td>舒适运动鞋，去沙漠穿封闭款（进沙不好清理）</td></tr>
-  </table>
-  <div class="note">银川气候干燥，广东来的朋友一定要多喝水、随身带润唇膏和保湿霜，不然嘴唇第二天就裂了</div>
+<div class="tip">银川湿度常年不到30%，广东来的朋友多喝水、带保湿霜和润唇膏，不然嘴唇第二天就裂了</div>
 </div>
 
-<div class="divider"></div>
+<div class="gap"></div>
 
 <!-- 方案一 -->
-<h2>方案一：1-2天 · 市区 + 近郊</h2>
-<p style="color:#888;font-size:13px;margin-bottom:12px">适合婚礼前后插空游玩，不远走，轻松为主</p>
+<div class="block" id="go-plan1">
+<div class="block-title">方案一：1-2天随便逛逛</div>
+<p class="intro">婚礼前后插空玩，不远走，吃吃喝喝拍拍照。</p>
 
-<div class="timeline">
-  <div class="t-item">
-    <div class="t-time">Day 1 上午</div>
-    <div class="t-text"><b>宁夏博物馆</b>（免费，金凤区内，打车10分钟）<br>了解西夏历史和宁夏文化，逛2小时刚好</div>
+<div class="day-label">Day 1</div>
+
+<div class="spot">
+  <b>宁夏博物馆</b>
+  <p>了解一下西夏历史和宁夏文化，逛2小时刚好</p>
+  <p class="meta">📍 金凤区内 · 🚕 打车10分钟 · 🎫 免费</p>
+</div>
+<div class="spot">
+  <b>镇北堡西部影城</b>
+  <p>大话西游、红高粱拍摄地，换上戏服拍照超好玩</p>
+  <p class="meta">📍 打车约40分钟 · 🎫 ¥80 · ⏰ 3-4小时</p>
+</div>
+<div class="spot">
+  <b>览山公园看日落 🌅</b>
+  <p>银川最美日落点，罗马风格露天剧场，出片率100%</p>
+  <p class="meta">📍 金凤区内 · 🚕 打车10分钟 · 🎫 免费</p>
+</div>
+<div class="spot">
+  <b>怀远夜市 🍢</b>
+  <p>烤蛋、牛肉饼、羊肉串、辣条……从头吃到尾就对了</p>
+  <p class="meta">📍 打车约15分钟 · 💰 ¥30-50吃到撑</p>
+</div>
+
+<div class="day-label">Day 2</div>
+<div class="spot">
+  <b>贺兰山岩画</b>
+  <p>几千年前的游牧民族在石头上刻的画，山谷里很凉快</p>
+  <p class="meta">📍 打车约50分钟 · 🎫 ¥70 · ⏰ 2-3小时</p>
+</div>
+<div class="spot">
+  <b>国强手抓 → 鼓楼 → 南关清真寺</b>
+  <p>回市区先吃一顿手抓羊肉，然后逛逛老城区，步行就能串起来</p>
+  <p class="meta">📍 老城区 · 🚕 从贺兰山回来打车15分钟</p>
+</div>
+
+<!-- 吃 -->
+<div class="block-title" style="margin-top:24px">必吃清单 🍖</div>
+<div class="c">
+  <div class="food">
+    <div class="food-emoji">🥩</div>
+    <div class="food-info">
+      <div class="fname">国强手抓（解放西街总店）</div>
+      <div class="fdesc">40年老字号，手抓羊肉蘸醋就是宁夏味</div>
+      <div class="fprice">人均 ¥80-100</div>
+    </div>
   </div>
-  <div class="t-item">
-    <div class="t-time">Day 1 下午</div>
-    <div class="t-text"><b>镇北堡西部影城</b>（门票 ¥80，打车约40分钟）<br>大话西游、红高粱拍摄地，换装拍照很好玩，3-4小时</div>
+  <div class="food">
+    <div class="food-emoji">🔥</div>
+    <div class="food-info">
+      <div class="fname">红柳枝滩羊烧烤</div>
+      <div class="fdesc">红柳枝穿肉烤的，跟普通烤串完全不一样</div>
+      <div class="fprice">人均 ¥60-80</div>
+    </div>
   </div>
-  <div class="t-item">
-    <div class="t-time">Day 1 傍晚</div>
-    <div class="t-text"><b>览山公园</b>（免费，金凤区内，打车10分钟）<br>银川看日落最佳地点，罗马风格的露天剧场，非常出片</div>
+  <div class="food">
+    <div class="food-emoji">🍲</div>
+    <div class="food-info">
+      <div class="fname">阿叶羊杂碎（前进街店）</div>
+      <div class="fdesc">一碗羊杂碎汤，早餐/宵夜都合适</div>
+      <div class="fprice">人均 ¥25-35</div>
+    </div>
   </div>
-  <div class="t-item">
-    <div class="t-time">Day 1 晚上</div>
-    <div class="t-text"><b>怀远夜市</b>（打车约15分钟）<br>烤蛋、牛肉饼、羊肉串、辣条，从头吃到尾</div>
+  <div class="food">
+    <div class="food-emoji">🏮</div>
+    <div class="food-info">
+      <div class="fname">怀远夜市</div>
+      <div class="fdesc">宫廷香酥牛肉饼、丁铁民烤蛋、一米大串</div>
+      <div class="fprice">人均 ¥30-50</div>
+    </div>
   </div>
 </div>
 
-<div class="timeline">
-  <div class="t-item">
-    <div class="t-time">Day 2 上午</div>
-    <div class="t-text"><b>贺兰山岩画</b>（门票 ¥70，打车约50分钟）<br>远古游牧民族的石刻艺术，山谷里很凉快，2-3小时</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 2 下午</div>
-    <div class="t-text">返回市区，<b>国强手抓</b>吃一顿手抓羊肉（解放西街总店，打车15分钟）<br>顺便逛逛<b>鼓楼</b>和<b>南关清真寺</b>（都在老城区，步行可达）</div>
-  </div>
+<!-- 住 -->
+<div class="block-title">住哪 🏨</div>
+<div class="tip">7.17-19 婚礼期间的酒店我们已经安排好了，下面是其他日期续住参考</div>
+<div class="c">
+  <div class="stay"><div><div class="sname">JW万豪</div><div class="sdesc">金凤区核心</div></div><div class="sprice">¥500-700</div></div>
+  <div class="stay"><div><div class="sname">凯宾斯基</div><div class="sdesc">国际高端</div></div><div class="sprice">¥450-600</div></div>
+  <div class="stay"><div><div class="sname">万达嘉华</div><div class="sdesc">万达商圈，吃喝方便</div></div><div class="sprice">¥400-550</div></div>
+  <div class="stay"><div><div class="sname">智选假日（亲水大街）</div><div class="sdesc">IHG旗下，性价比高</div></div><div class="sprice">¥250-350</div></div>
+  <div class="stay"><div><div class="sname">凯悦嘉轩（大阅城）</div><div class="sdesc">凯悦中端</div></div><div class="sprice">¥300-400</div></div>
+  <div class="stay"><div><div class="sname">雲昇酒店（悦海新天地）</div><div class="sdesc">经济实惠，评分很高</div></div><div class="sprice">¥150-250</div></div>
+</div>
 </div>
 
-<h3>吃在哪</h3>
-<div class="card">
-  <table>
-    <tr><th>餐厅</th><th>必点</th><th>人均</th></tr>
-    <tr><td>国强手抓（解放西街总店）</td><td>手抓羊肉、烤羊背、枸杞苗</td><td>¥80-100</td></tr>
-    <tr><td>红柳枝滩羊烧烤</td><td>红柳枝烤肉、烤羊排</td><td>¥60-80</td></tr>
-    <tr><td>阿叶羊杂碎（前进街店）</td><td>羊杂碎汤</td><td>¥25-35</td></tr>
-    <tr><td>迎宾楼（解放西街店）</td><td>老字号清真菜</td><td>¥50-70</td></tr>
-    <tr><td>怀远夜市</td><td>宫廷香酥牛肉饼、丁铁民烤蛋、羊肉串</td><td>¥30-50吃到撑</td></tr>
-  </table>
-</div>
-
-<h3>住在哪</h3>
-<div class="card">
-  <div class="note">7月17-19日婚礼期间酒店已由新人安排，以下为其他日期续住参考</div>
-  <table>
-    <tr><th>酒店</th><th>档次</th><th>参考价</th></tr>
-    <tr><td>银川JW万豪</td><td>高端</td><td>¥500-700</td></tr>
-    <tr><td>凯宾斯基饭店</td><td>高端</td><td>¥450-600</td></tr>
-    <tr><td>万达嘉华</td><td>高端</td><td>¥400-550</td></tr>
-    <tr><td>智选假日酒店（亲水大街）</td><td>中档</td><td>¥250-350</td></tr>
-    <tr><td>凯悦嘉轩（大阅城）</td><td>中档</td><td>¥300-400</td></tr>
-    <tr><td>雲昇酒店（万达悦海新天地）</td><td>经济</td><td>¥150-250</td></tr>
-  </table>
-  <p>金凤区是银川核心商务区，以上酒店都在金凤区内，打车到各景点都很方便</p>
-</div>
-
-<div class="divider"></div>
+<div class="gap"></div>
 
 <!-- 方案二 -->
-<h2>方案二：3天 · 加沙湖 + 水洞沟</h2>
-<p style="color:#888;font-size:13px;margin-bottom:12px">在方案一基础上，加一天沙湖和一天水洞沟</p>
+<div class="block" id="go-plan2">
+<div class="block-title">方案二：3天，多去两个地方</div>
+<p class="intro">在方案一基础上加两个经典景点：沙湖和水洞沟，各需要一天。</p>
 
-<div class="timeline">
-  <div class="t-item">
-    <div class="t-time">Day 1</div>
-    <div class="t-text">同方案一：博物馆 → 镇北堡 → 览山日落 → 怀远夜市</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 2 全天</div>
-    <div class="t-text"><b>沙湖</b>（门票+船票约 ¥150，打车约1小时）<br>半沙半湖的独特风光，坐船穿梭芦苇荡，可以玩沙漠项目<br>建议上午出发，玩半天到一天，下午返回</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 3 全天</div>
-    <div class="t-text"><b>水洞沟</b>（门票 ¥76 / 套票 ¥140，打车约50分钟）<br>旧石器时代遗址 + 明长城 + 藏兵洞 + 雅丹地貌<br>景区很大，含游船、驴车、骆驼车、拖拉机等体验，非常有趣，预留5-6小时</div>
-  </div>
+<div class="day-label">Day 1</div>
+<p style="font-size:13px;color:#888;padding:4px 0 8px">同方案一：博物馆 → 镇北堡 → 览山日落 → 怀远夜市</p>
+
+<div class="day-label">Day 2</div>
+<div class="spot">
+  <b>沙湖 🏜️</b>
+  <p>一半沙漠一半湖，坐船穿过芦苇荡，能玩沙漠项目，很特别的地方</p>
+  <p class="meta">📍 打车约1小时 · 🎫 门票+船票 ¥150 · ⏰ 大半天</p>
 </div>
 
-<div class="note">沙湖和水洞沟分别在银川的西北和东南方向，不建议同一天去，各安排一天比较从容</div>
+<div class="day-label">Day 3</div>
+<div class="spot">
+  <b>水洞沟</b>
+  <p>三万年前的古人类遗址 + 明长城 + 藏兵洞，景区里要坐船、骑骆驼、坐拖拉机，像闯关一样</p>
+  <p class="meta">📍 打车约50分钟 · 🎫 ¥76起 · ⏰ 5-6小时</p>
+</div>
 
-<div class="divider"></div>
+<div class="tip">沙湖在银川西北，水洞沟在东南方向，别安排同一天，各玩一天比较舒服</div>
+</div>
+
+<div class="gap"></div>
 
 <!-- 方案三 -->
-<h2>方案三：3-5天 · 深度游（含中卫）</h2>
-<p style="color:#888;font-size:13px;margin-bottom:12px">在方案二基础上，加1-2天去中卫沙坡头/腾格里沙漠</p>
+<div class="block" id="go-plan3">
+<div class="block-title">方案三：3-5天，杀到中卫去 🐪</div>
+<p class="intro">前面方案玩完之后，再加1-2天去中卫。那里有腾格里沙漠和沙坡头，离银川3小时车程，值得去。</p>
 
-<div class="timeline">
-  <div class="t-item">
-    <div class="t-time">Day 1-3</div>
-    <div class="t-text">同方案二：银川市区 + 沙湖 + 水洞沟</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 4 早上出发</div>
-    <div class="t-text">银川 → <b>中卫</b>（自驾/包车约3小时，约220公里）<br>到达后直奔<b>沙坡头景区</b>（门票 ¥80）<br>黄河漂流、滑沙、骑骆驼、沙漠冲浪、羊皮筏子</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 4 晚上</div>
-    <div class="t-text">住中卫（推荐：中卫大酒店 / 沙坡头附近的沙漠星空帐篷酒店，可以看银河）</div>
-  </div>
-  <div class="t-item">
-    <div class="t-time">Day 5</div>
-    <div class="t-text">上午继续玩沙坡头或去<b>腾格里沙漠</b>深处（越野穿越、沙漠露营）<br>下午返回银川（3小时），或者直接从中卫坐火车/飞回</div>
-  </div>
+<div class="day-label">Day 4</div>
+<div class="spot">
+  <b>一早出发去中卫</b>
+  <p>自驾或包车，3小时到。直奔沙坡头——滑沙、骑骆驼、黄河漂流、羊皮筏子、沙漠冲浪，够玩一整天</p>
+  <p class="meta">📍 距银川约220km · 🎫 ¥80</p>
+</div>
+<div class="spot">
+  <b>晚上住中卫</b>
+  <p>推荐沙漠星空帐篷酒店，沙漠里看银河，拍照绝了。想省事就住市区中卫大酒店。</p>
 </div>
 
-<h3>中卫住宿</h3>
-<div class="card">
-  <table>
-    <tr><th>住宿</th><th>特色</th><th>参考价</th></tr>
-    <tr><td>沙漠星空帐篷酒店</td><td>沙漠里看银河，非常特别</td><td>¥400-800</td></tr>
-    <tr><td>中卫大酒店</td><td>市区中档，方便</td><td>¥200-350</td></tr>
-    <tr><td>沙坡头景区附近民宿</td><td>步行到景区</td><td>¥150-300</td></tr>
-  </table>
+<div class="day-label">Day 5</div>
+<div class="spot">
+  <b>上午接着玩 or 深入腾格里</b>
+  <p>可以继续沙坡头没玩完的项目，或者找越野车进腾格里沙漠深处穿越。下午回银川（3小时），或者直接从中卫走。</p>
 </div>
 
-<div class="note">沙坡头单程3小时，不想太赶的话建议在中卫住一晚。想体验沙漠露营的话，腾格里沙漠的星空帐篷酒店非常值得</div>
-
-<div class="divider"></div>
-
-<!-- 交通方式 -->
-<h2>市内交通</h2>
-<div class="card">
-  <table>
-    <tr><th>方式</th><th>说明</th></tr>
-    <tr><td>🚕 打车/滴滴</td><td>最方便，金凤区出发到市区景点 ¥10-20，到镇北堡/岩画 ¥40-60</td></tr>
-    <tr><td>🚗 租车自驾</td><td>神州/一嗨在银川都有点，日租 ¥100-200，去中卫推荐自驾</td></tr>
-    <tr><td>🚐 包车</td><td>多个景点一天跑完，包车约 ¥400-600/天，可以4-5人拼</td></tr>
-  </table>
-  <div class="note">去沙湖、水洞沟、镇北堡这些景点建议打车或租车，比公交方便很多。去中卫强烈建议自驾或包车</div>
+<div class="tip">中卫住宿提前订，7月是旺季。星空帐篷酒店很抢手。</div>
 </div>
 
-<div class="divider"></div>
+<div class="gap"></div>
+
+<!-- 交通 -->
+<div class="block" id="go-transport">
+<div class="block-title">怎么去景点</div>
+<div class="go-card">
+  <div class="go-icon">🚕</div>
+  <div class="go-body"><strong>打车/滴滴</strong><br>市区景点 ¥10-20，镇北堡/岩画 ¥40-60，最方便</div>
+</div>
+<div class="go-card">
+  <div class="go-icon">🚗</div>
+  <div class="go-body"><strong>租车</strong><br>神州/一嗨都有，日租 ¥100-200，去中卫推荐自驾</div>
+</div>
+<div class="go-card">
+  <div class="go-icon">🚐</div>
+  <div class="go-body"><strong>包车</strong><br>¥400-600/天，4-5人拼最划算，一天跑多个景点</div>
+</div>
+<div class="tip">景区返程不好打车，出发前跟司机约好回来接，或者用滴滴预约</div>
+</div>
+
+<div class="gap"></div>
 
 <!-- 注意事项 -->
-<h2>注意事项</h2>
-<div class="card">
-  <ul>
-    <li><b>防晒防晒防晒</b>：紫外线非常强，不涂防晒一天就黑一圈，物理防晒（帽子、冰袖）也要带上</li>
-    <li><b>多喝水</b>：银川湿度常年在 30% 以下，广东来的朋友会觉得很干，嘴唇容易裂</li>
-    <li><b>清真饮食</b>：银川是回族自治区，大部分餐厅为清真餐厅，不带外食进店，尊重当地习俗</li>
-    <li><b>沙漠装备</b>：去沙湖/沙坡头穿封闭式鞋子（凉鞋进沙很难受），带手机防沙套</li>
-    <li><b>温差大</b>：7月白天热但早晚凉，特别是贺兰山脚下和沙漠晚上，带件薄外套</li>
-    <li><b>打车建议</b>：景区附近返程不好打车，去之前最好跟司机约好返程接送，或者用滴滴预约</li>
+<div class="block" id="go-tips">
+<div class="block-title">最后说几点</div>
+<div class="c">
+  <ul class="notice">
+    <li><b>防晒不是开玩笑</b>：紫外线极强，SPF50+涂起来，帽子冰袖都带上</li>
+    <li><b>多喝水</b>：这边干到你怀疑人生，润唇膏和保湿霜随身带</li>
+    <li><b>大部分餐厅是清真</b>：不带外食进店，尊重当地习俗</li>
+    <li><b>去沙漠穿运动鞋</b>：凉鞋进沙很难受，手机最好套个防沙袋</li>
+    <li><b>早晚凉</b>：带件薄外套，贺兰山脚下和沙漠晚上能降到18度</li>
   </ul>
 </div>
-
-<div class="footer">
-  <p>有问题随时联系新郎/新娘 🎉</p>
-  <p>祝大家在银川玩得开心！</p>
 </div>
 
+<footer>
+  <p>有任何问题随时找我们 😊</p>
+  <p>7·18 银川见！🎉</p>
+</footer>
+
 </div>
+<script>
+(function(){
+  var el=document.getElementById('elevator'),
+      links=el.querySelectorAll('a'),
+      sections=[];
+  links.forEach(function(a){
+    var id=a.getAttribute('href').slice(1),sec=document.getElementById(id);
+    if(sec)sections.push({el:sec,link:a});
+  });
+  links.forEach(function(a){
+    a.addEventListener('click',function(e){
+      e.preventDefault();
+      var t=document.getElementById(this.getAttribute('href').slice(1));
+      if(t)window.scrollTo({top:t.getBoundingClientRect().top+window.pageYOffset-56,behavior:'smooth'});
+    });
+  });
+  function update(){
+    var sy=window.pageYOffset;
+    if(sy<120){el.classList.add('hide');el.classList.remove('show')}
+    else{el.classList.remove('hide');el.classList.add('show')}
+    var active=null;
+    for(var i=sections.length-1;i>=0;i--){if(sections[i].el.getBoundingClientRect().top<80){active=sections[i];break}}
+    links.forEach(function(l){l.classList.remove('active')});
+    if(active)active.link.classList.add('active');
+  }
+  var t=false;
+  window.addEventListener('scroll',function(){if(!t){requestAnimationFrame(function(){update();t=false});t=true}});
+  update();
+})();
+</script>
 </body>
 </html>
